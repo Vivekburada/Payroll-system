@@ -18,7 +18,7 @@ if($status=='EmployeeLogin')
 
                   $_SESSION["logged_in"] = true;
                   $_SESSION["user"] = $e_id;
-                  echo "<script>window.location = 'http://localhost/fourth/dashboard.php'</script>";
+                  echo "<script>window.location = 'http://localhost/payroll-system/fourth/dashboard.php'</script>";
                   $flag = 1;
                   break;
               }
@@ -33,7 +33,7 @@ if($e_id=="admin" && $password=="admin")
 {
   $_SESSION["logged_in"] = true;
   $_SESSION["user"] = $e_id;
-  echo "<script>window.location = 'http://localhost/fourth/admin.php'</script>";
+  echo "<script>window.location = 'http://localhost/payroll-system/fourth/admin.php'</script>";
   $flag = 1;
   break;
 }
@@ -41,7 +41,7 @@ if($e_id=="admin" && $password=="admin")
 if (!$flag){
     $message = "Login credentials are wrong";
 echo "<script type='text/javascript'>alert('$message');</script>";
-      echo "<script>window.location = 'http://localhost/fourth/auth.php'</script>";
+      echo "<script>window.location = 'http://localhost/payroll-system/fourth/auth.php'</script>";
 
 }
 

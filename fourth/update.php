@@ -13,11 +13,11 @@ $success = $conn->query($queried);
 
 if (!$success) {
     die("Couldn't enter data: ".$conn->error);
-    echo "<script>window.location = 'http://localhost/fourth/button3.php'</script>";
+    echo "<script>window.location = 'http://localhost/payroll-system/fourth/button3.php'</script>";
 }
 else
   {
   echo "<script type='text/javascript'>alert('Query Successful');</script>";
-  echo "<script>window.location = 'http://localhost/fourth/button3.php'</script>";
+  echo "<script>window.location = 'http://localhost/payroll-system/fourth/button3.php'</script>";
 }
 ?>

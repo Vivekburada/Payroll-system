@@ -85,8 +85,6 @@ margin-top: 40%;
 
  </head>
  <body>
-   <center><h1>Payroll system</h1></center>
-
 <form action='login.php' method='POST'>
   <h2 class='highlight'>Admin Login</h2>
   <label>Username<input type='text' name="userid"></label><br/>
